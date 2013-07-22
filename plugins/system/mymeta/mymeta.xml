@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>Meta Plugin của tui</name>
+	<author>Trọng Nghĩa</author>
+	<creationDate>July 2013</creationDate>
+	<copyright>Copyright (C) 2013 Trọng Nghĩa. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>2.5.0</version>
+	<description>Meta Plugin của tui</description>
+	<files>
+		<filename plugin="p3p">mymeta.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="revised" type="text"
+					description="Thẻ meta revised cho thuộc tính content"
+					label="Revised Content"
+					default=""
+					size="50"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
